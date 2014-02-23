@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Cool stuff goes here -->
+        <div id="wrap" class="clearfix">
+            <div id="menu">
+                <ul id="default" class="menu clearfix">
+                    <li data-menu="status">status</li>
+                    <li data-menu="item">item</li>
+                    <li data-menu="spell">spell</li>
+                    <li data-action="doSearch">search</li>
+                </ul>
+                <ul id="status" class="menu clearfix">
+                    <li data-action="stat1">status1</li>
+                    <li data-action="stat2">status2</li>
+                </ul>
+                <ul id="item" class="menu clearfix">
+                    <li data-action="item1">item1</li>
+                    <li data-action="item2">item2</li>
+                </ul>
+                <ul id="spell" class="menu clearfix">
+                    <li data-action="spell1">spell1</li>
+                    <li data-action="spell2">spell2</li>
+                </ul>
+            </div>
+
+        	<canvas id="hero" width="480" height="416"></canvas>
+        	<canvas id="npc" width="480" height="416"></canvas>
+        	<canvas id="fg" width="480" height="416"></canvas>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/Rpg.js"></script>
+        <script src="js/maps/world.js"></script>
+        <script src="js/maps/castle_1.js"></script>
+        <script src="js/maps/town_1.js"></script>
+        <script src="js/Rpg-tiles.js"></script>
+        <script src="js/Npc.js"></script>
+        <script src="js/Animate.js"></script>
+        <script src="js/Menu.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
